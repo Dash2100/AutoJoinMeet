@@ -34,6 +34,5 @@ if __name__ == '__main__':
         print("請用編輯器開啟並輸入你的Google帳號密碼")
         input("按任意鍵關閉...")
         exit(0)
-    #meet_url = input("Google Meet 網址: ")
-    meet_url = "https://meet.google.com/nwt-xiaf-dpg"
+    meet_url = input("Google Meet 網址: ")
     nuke(acc,pas,meet_url)
